@@ -4,28 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M&R</title>
+    <title>Novedades M&R</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="imagenes/png" href="/imagenes/logo/logo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2 class="container__title">Novedades M&R</h2>
-        <img src="/images/logo.jpg" width="10px" height="10px" alt="ee">
-        <div class="content_food"></div>
-        <i class='bx bx-cart-alt' id="icon_cart"></i>
-    </div>
+    <header>
+        
+        <div class="nav container">
+            <a href="https://github.com/bryanbb08/ECOMEMERCE" target="_blank" class="logo">Novedades<span>M&R</span></a>
+            
+            <i class='bx bx-cart' id="cart-icon"></i>
+            
+            
+            <div class="cart">
+                <h2 class="cart-title">Tus Productos</h2>
+                
+                
+                <div class="cart-content">
+                </div>
+                
+                
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                
+                <button type="button" class="btn-buy">Comprar ya</button>
+                
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>      
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Nuestros Productos</h2>
+            
+            <div class="shop-content">
+                
+                <div class="product-box">
+                    <img src="/imagenes/tomato.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Tomatodo</h2>
+                    <span class="product-price">$12</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                    <img src="/imagenes/camara.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Camara</h2>
+                    <span class="product-price">$40</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                    <img src="/imagenes/adaptadorLlave.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Adaptador de Llave</h2>
+                    <span class="product-price">$3</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                    <img src="/imagenes/ondulador.jpg" alt="" class="product-img">
+                    <h2 class="product-title">ondulador</h2>
+                    <span class="product-price">$3,50</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                    <img src="/imagenes/AuricularesGaming.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Auriculares Gaming</h2>
+                    <span class="product-price">$25</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                    <img src="/imagenes/pizarra.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Pizarra Magica </h2>
+                        <span class="product-price">$5</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+                
+                <div class="product-box">
+                <img src="/imagenes/regleta.jpg" alt="" class="product-img">
+                <h2 class="product-title">Regleta Hexagonal</h2>
+                    <span class="product-price">$10</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
 
-    <div class="content_cart" id="contentCart">
-        <div class="content_cart-body"></div>
-        <div class="content_cart-total">
-            <h3>Total <span id="total"></span></h3>
-        </div>
-    </div>
+                <div class="product-box">
+                <img src="/imagenes/TVStickAndroid.jpg" alt="" class="product-img">
+                <h2 class="product-title">MXQ Stick</h2>
+                    <span class="product-price">$33</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            </div>
+    </section>
 
-    <!-- f -->
+    <footer>
+        <p>Gracias por visitar nuetra tienda, Vuelve pronto😉</p>
+    </footer>
 
-
-    <script src="/main.js" type="module"></script>
+    <script src="JS/main.js"></script>
 </body>
 </html>

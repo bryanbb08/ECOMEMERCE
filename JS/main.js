@@ -74,7 +74,7 @@ function handle_addCartItem(){
 
     //handle item s already exist
     if(itemsAdded.find((el) => el.title == newToAdd.title)) {
-        alert("Este objeto ya existe!");
+        alert("ya existe!");
         return;
     }else{
         itemsAdded.push(newToAdd);
@@ -116,12 +116,12 @@ function handle_changeItemQuantity() {
 
 function handle_buyOrder() {
     if (itemsAdded.length <=0) {
-    alert("No hay nada! \npor favor Comprar algo ya!.");
+    alert("No hay nada! \npor favor has Comprar ya!.");
     return;
     }
 const cartContent = cart.querySelector(".cart-content");
 cartContent.innerHTML = "";
-alert("Gracias por comprar en esta tienda :)");
+alert("Gracias por comprar en esta tienda, Vuelve pronto :)");
 itemsAdded = [];
 
 update();
